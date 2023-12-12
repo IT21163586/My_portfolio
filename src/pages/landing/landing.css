@@ -1,0 +1,55 @@
+--- MOBILE STYLES ---
+
+.landing .name {
+  font-size: 48px;
+  
+  
+}
+.landing .description {
+  font-size: 26px;
+  color: rgb(223, 10, 10);
+}
+
+.landingImage {
+  right: 10px;
+  border-radius: 400px;
+}
+
+
+
+
+
+.landing .socialIcons {
+  display: flex;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+
+
+@media (min-width: 750px) {
+  .landing .name {
+    font-size: 100px;
+    left: 100px;
+    
+
+  }
+
+  .landing .description {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    
+  }
+
+  .landingImage {
+    bottom: 0;
+    right: 100px;
+    
+  }
+
+  
+ .landing .socialIcons {
+    flex-direction: column;
+  }
+}
